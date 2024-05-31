@@ -1,9 +1,14 @@
 import './App.css';
+import Kuromi from './components/Kuromi';
 
 function App() {
+
+
+
+
   return (
     <>
-      안녕하세요.
+      <Kuromi />
     </>
   );
 }
