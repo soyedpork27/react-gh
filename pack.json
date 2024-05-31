@@ -1,0 +1,7 @@
+{
+  "homepage": "https://<< 사용자 계정 >>.github.io/<< 레포지터리명 >>",
+  "script" : {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
